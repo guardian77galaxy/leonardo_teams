@@ -1,5 +1,2 @@
 import requests
-
-response = requests.get("https://yotube.com/")
-
-print(response.text)
+from fake_useragent import UserAgent
